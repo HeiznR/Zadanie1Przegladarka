@@ -7,9 +7,21 @@
         <title>Document</title>
     </head>
     <body>
-        <div>
-            <button>Click</button>
+        <style type="text/css">
+            .generator {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        </style>
+
+        <div class="generator">
+            <button id="btnGenerator">Generate</button>
+            <div>
+                <div id="even" class="generator__even"></div>
+                <div id="odd" class="generator__odd"></div>
+            </div>
         </div>
+        <script src="scripts.js"></script>
     </body>
 </html>
-g
